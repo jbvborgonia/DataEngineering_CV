@@ -4,7 +4,8 @@ import { resumeData } from "../data/resume";
 import { Button, buttonVariants } from "./ui/button";
 import { Github, Linkedin, Mail, FileText } from "lucide-react";
 import { cn } from "@/lib/utils";
-import resumePdf from "../assets/Data_Engineering.pdf";
+// Please upload your new CV to the src/assets folder and replace the name if it's different.
+import resumePdf from "../assets/John_Benedick_Borgonia_Resume.docx.pdf";
 
 export default function Hero() {
   const handleDownload = async (e: React.MouseEvent<HTMLAnchorElement>) => {
@@ -84,7 +85,7 @@ export default function Hero() {
             <Linkedin className="w-5 h-5" />
           </a>
           <a 
-            href={`mailto:${resumeData.contact.email}`}
+            href="#contact"
             className={cn(buttonVariants({ variant: "outline", size: "icon" }), "rounded-full")}
           >
             <Mail className="w-5 h-5" />

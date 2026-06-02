@@ -42,7 +42,7 @@ export default function Navbar() {
 
         <div className="flex items-center gap-4">
           <a 
-            href={`mailto:${resumeData.contact.email}`}
+            href="#contact"
             className={cn(buttonVariants({ variant: "outline", size: "sm" }), "hidden sm:flex")}
           >
             Contact

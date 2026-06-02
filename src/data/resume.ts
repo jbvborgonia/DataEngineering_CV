@@ -1,7 +1,7 @@
 export const resumeData = {
   name: "John Benedick V. Borgonia",
   title: "Data Analyst / Cloud Data Engineer",
-  summary: "Detail-oriented and analytical Data Analyst with a strong foundation in SQL and hands-on experience supporting Google Cloud database environments. Currently working as a Technical Support Engineer for Google Cloud Databases, with daily exposure to complex SQL queries, database performance issues, and cloud-based data solutions. Possesses working knowledge of Python for data analysis and is actively expanding skills in BigQuery and cloud analytics. Adept at translating technical findings into clear insights and collaborating with cross-functional teams in remote environments. Seeking a remote Data Analyst/Engineer role to further develop analytical expertise and contribute to data-driven decision-making.",
+  summary: "Detail-oriented and analytical Data Analyst with strong expertise in SQL and hands-on experience supporting Google Cloud database environments. Currently working as an Data Eng, Mgmt & Governance Analyst for Google Cloud Databases, with experience in SQL optimization, database performance monitoring, cloud-based analytics, and data migration. Skilled in Python, BigQuery, and dashboard reporting, with additional exposure to AI prompt engineering and full-stack development. Adept at translating technical findings into actionable insights and collaborating with cross-functional teams in remote environments.",
   contact: {
     email: "jbvborgonia@gmail.com",
     linkedin: "https://linkedin.com/in/john-benedick-borgonia-3a0076213",
@@ -24,7 +24,7 @@ export const resumeData = {
       achievements: [
         "Designed and optimized complex SQL queries (joins, subqueries, CTEs, aggregations) in PostgreSQL to extract, clean, and transform client data for business analysis and reporting.",
         "Assisted in data migration and validation processes between on-premises and Google Cloud SQL environments, ensuring data integrity and minimizing downtime.",
-        "Monitored and analyzed database performance metrics, proactively identifying bottlenecks and proposing optimizations that improved query response times by up to 25%.",
+        "Monitored and analyzed database performance metrics, proactively identifying bottlenecks and proposing optimizations that improved query response times.",
         "Delivered end-to-end support for Google Cloud Platform (GCP) database tools, assisting users with configuration, access control, and query troubleshooting.",
         "Contributed to a Large Language Model (LLM) project, performing data validation, documentation, and task management.",
         "Improved internal reporting workflows by integrating cloud-based analytics and troubleshooting pipelines."
