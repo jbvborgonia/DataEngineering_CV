@@ -1,7 +1,7 @@
 export const resumeData = {
   name: "John Benedick V. Borgonia",
   title: "Data Analyst / Cloud Data Engineer",
-  summary: "Detail-oriented and analytical Data Analyst with strong expertise in SQL and hands-on experience supporting Google Cloud database environments. Currently working as an Data Eng, Mgmt & Governance Analyst for Google Cloud Databases, with experience in SQL optimization, database performance monitoring, cloud-based analytics, and data migration. Skilled in Python, BigQuery, and dashboard reporting, with additional exposure to AI prompt engineering and full-stack development. Adept at translating technical findings into actionable insights and collaborating with cross-functional teams in remote environments.",
+  summary: "Detail-oriented and analytical Data Analyst with strong expertise in SQL and hands-on experience supporting Google Cloud database environments. Currently working as an Data Eng, Mgmt & Governance Analyst for Accenture, with experience in SQL optimization, database performance monitoring, cloud-based analytics, and data migration. Skilled in Python, BigQuery, and dashboard reporting, with additional exposure to AI prompt engineering and full-stack development. Adept at translating technical findings into actionable insights and collaborating with cross-functional teams in remote environments.",
   contact: {
     email: "jbvborgonia@gmail.com",
     linkedin: "https://linkedin.com/in/john-benedick-borgonia-3a0076213",
@@ -18,7 +18,7 @@ export const resumeData = {
   experience: [
     {
       company: "Accenture",
-      role: "Application/Cloud Support Analyst",
+      role: "Data Eng, Mgmt & Governance Analyst",
       period: "Sept 2022 – Present",
       location: "Philippines",
       achievements: [

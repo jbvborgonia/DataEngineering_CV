@@ -29,6 +29,16 @@ export default function Hero() {
     }
   };
 
+  const renderSummary = (text: string) => {
+    const parts = text.split(/(Data Eng, Mgmt & Governance Analyst|Accenture)/g);
+    return parts.map((part, i) => {
+      if (part === "Data Eng, Mgmt & Governance Analyst" || part === "Accenture") {
+        return <strong key={i} className="font-semibold text-foreground">{part}</strong>;
+      }
+      return part;
+    });
+  };
+
   return (
     <section id="home" className="py-20 flex flex-col items-center text-center space-y-8">
       <motion.div
@@ -51,7 +61,7 @@ export default function Hero() {
         transition={{ delay: 0.2, duration: 0.5 }}
         className="max-w-2xl text-lg text-muted-foreground leading-relaxed"
       >
-        {resumeData.summary}
+        {renderSummary(resumeData.summary)}
       </motion.p>
 
       <motion.div
